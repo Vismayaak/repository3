@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .r1 {
+            color: mediumpurple;
+        }
+
+        .container {
+            padding-right: 40px;
+        }
+
+        .r3 {
+            margin-top: 40px;
+            background-color: darksalmon;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .c3 {
+            padding: 20px;
+        }
+        .c1{
+            background-color: darksalmon; 
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .c2{
+            border-radius: 10px; 
+            background-color: darksalmon;
+            padding : 10px; 
+            margin-left: 50px;
+        }
+        .c2:hover{
+            background-color: rgb(120, 156, 176);
+        }
+        .c1:hover{
+            background-color: rgb(120, 156, 176);
+        }
+        .c2:hover{
+            background-color: rgb(120, 156, 176);
+        }
+        .r3:hover{
+            background-color: rgb(120, 156, 176);
+        }
+        .coll{
+            position: relative;
+        }
+        .new {
+           
+            padding: 100px 0px 0px 0px;
+            width: 100%;
+            height: 800px;
+            animation-name: anim;
+            animation-duration: 5s;
+            animation-iteration-count: infinite; 
+        }
+
+        @keyframes anim {
+            0%{content: url(images.jpeg);}
+            50%{content: url(image3.jpg);}
+            100%{content: url(images\ \(1\).jpeg);}
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-12">
+                <div class="row r1" style="padding: 50px;">
+                    <h1>We build your dream<br>house with our passion</h1>
+                    <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.Molestiae
+                        necessitatibus nam rerum dolor, repellat perferendis culpa,
+                        numquam reprehenderit, quis temporibus obcaecati soluta sunt unde?
+                        Hic officiis recusandae cum vero quisquam?</p>
+                    <input type="submit" value="Get started"
+                        style="border-radius:50px ;background-color: black;color: white;height: 50px;width: 250px;">
+                </div>
+                <div class="row r2">
+                    <div class="col c1">
+                        <b>178+</b>
+                        <p>Lorem ipsum dolor sit amot consectetur adipising elit.voluptates exertatinum nnemo doloribus
+                        </p>
+                    </div>
+                    <div class="col c2">
+                        <b>362</b>
+                        <p>Lorem ipsum dolor sit amot consectetur adipising elit.voluptates exertatinum nnemo doloribus
+                        </p>
+                    </div>
+                </div>
+                <div class="row r3">
+                    <div class="col-6">
+                        <b>Title</b>
+                        <p>Lorem ipsum dolor sit amot consectetur adipising elit.voluptates exertatinum nnemo doloribus
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="images.jpeg"
+                            style="margin: 100px;width: 200px;height: 150px; margin: 0px 0px 1px 50px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-12 coll">
+                <div class="new">
+                   
+                </div>
+                <img src="image3.jpg"
+                    style="border-radius:100px;position:absolute;height: 100px;width: 100px;top: 40px;right: 45%;">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
